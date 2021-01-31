@@ -9,7 +9,7 @@ const Home = () => {
     <>
     <div>
       <div className="header">
-        <h1 className="header-txt">HOME PAGE</h1>
+        <h1 className="header-txt"></h1>
       </div>
       <div className="MainPageTemplate">
         <Link href={`./portfolio`}>

@@ -44,7 +44,7 @@ const Posts = () => {
 
 
           <div className="header">
-            <h1 className="header-txt">ALL POSTS</h1>
+            <h1 className="header-txt">PICTURE POSTS</h1>
           </div>
           <div className="news-feed-template">{renderPosts()}</div>
         </>
