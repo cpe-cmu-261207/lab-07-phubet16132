@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;400&display=swap');
+
+.news-feed-topic{
+    font-size: 36px;
+    
+    margin-left: 50px;
+}
+
+.news-feed-template{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* -------- ALL POSTS ---------- */
+
+.postTemplate{
+    padding: 80px;
+}
+
+.link-topic{
+    margin-top: 5px;
+
+    font-size: 30px;
+    font-weight: 500;
+
+    text-align: center;
+}
+
+.link-topic:hover{
+    color: #92de8b;
+    cursor: pointer;
+}
+
+.picture{
+    max-width: 600px;
+    max-height: 600px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.like{
+    margin: 10px;
+    font-size: 26px;
+    font-weight: 600;
+
+    text-align: center;
+}
+
+.survey_btn{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* ------ SPECIFIC POST -------- */
+
+.post-topic{
+    text-align: center;
+    font-size: 48px;
+
+}
+
+.post-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tag-cmt{
+    font-size: 30px;
+    font-weight: 600;
+
+    text-align: center;
+}
+
+.username{
+    color: #ffe3b3;
+}
+
+/* -------- loading screen ---------- */
+
+.loader-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+	width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.loader {
+    margin: 0 auto;
+
+    border: 30px solid #ffe3b3; 
+    border-top: 30px solid #92de8b; 
+
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+
+    animation: spin 3s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
